@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/ks3sdklib/aws-sdk-go/internal/apierr"
+	"github.com/dongfangx/aws-sdk-go/internal/apierr"
 )
 
 // ValidateParameters is a request handler to validate the input parameters.

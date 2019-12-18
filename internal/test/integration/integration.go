@@ -8,7 +8,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/ks3sdklib/aws-sdk-go/aws"
+	"github.com/dongfangx/aws-sdk-go/aws"
 )
 
 // Imported is a marker to ensure that this package's init() function gets

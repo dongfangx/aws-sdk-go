@@ -2,8 +2,8 @@
 package kms
 
 import (
-	"github.com/ks3sdklib/aws-sdk-go/internal/features/shared"
-	"github.com/ks3sdklib/aws-sdk-go/service/kms"
+	"github.com/dongfangx/aws-sdk-go/internal/features/shared"
+	"github.com/dongfangx/aws-sdk-go/service/kms"
 	. "github.com/lsegal/gucumber"
 )
 

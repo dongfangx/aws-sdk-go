@@ -3,10 +3,10 @@ package s3_test
 import (
 	"testing"
 
-	"github.com/ks3sdklib/aws-sdk-go/aws"
-	"github.com/ks3sdklib/aws-sdk-go/aws/awserr"
-	"github.com/ks3sdklib/aws-sdk-go/internal/test/unit"
-	"github.com/ks3sdklib/aws-sdk-go/service/s3"
+	"github.com/dongfangx/aws-sdk-go/aws"
+	"github.com/dongfangx/aws-sdk-go/aws/awserr"
+	"github.com/dongfangx/aws-sdk-go/internal/test/unit"
+	"github.com/dongfangx/aws-sdk-go/service/s3"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -30,9 +30,9 @@ func TestSSECustomerKeyOverHTTPError(t *testing.T) {
 func TestCopySourceSSECustomerKeyOverHTTPError(t *testing.T) {
 	s := s3.New(&aws.Config{DisableSSL: true})
 	req, _ := s.CopyObjectRequest(&s3.CopyObjectInput{
-		Bucket:     aws.String("bucket"),
-		CopySource: aws.String("bucket/source"),
-		Key:        aws.String("dest"),
+		Bucket:                   aws.String("bucket"),
+		CopySource:               aws.String("bucket/source"),
+		Key:                      aws.String("dest"),
 		CopySourceSSECustomerKey: aws.String("key"),
 	})
 	err := req.Build()

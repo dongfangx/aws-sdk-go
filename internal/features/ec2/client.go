@@ -2,8 +2,8 @@
 package ec2
 
 import (
-	"github.com/ks3sdklib/aws-sdk-go/internal/features/shared"
-	"github.com/ks3sdklib/aws-sdk-go/service/ec2"
+	"github.com/dongfangx/aws-sdk-go/internal/features/shared"
+	"github.com/dongfangx/aws-sdk-go/service/ec2"
 	. "github.com/lsegal/gucumber"
 )
 

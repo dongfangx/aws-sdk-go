@@ -3,8 +3,8 @@ package credentials
 import (
 	"testing"
 
-	"github.com/ks3sdklib/aws-sdk-go/aws/awserr"
-	"github.com/ks3sdklib/aws-sdk-go/internal/apierr"
+	"github.com/dongfangx/aws-sdk-go/aws/awserr"
+	"github.com/dongfangx/aws-sdk-go/internal/apierr"
 	"github.com/stretchr/testify/assert"
 )
 

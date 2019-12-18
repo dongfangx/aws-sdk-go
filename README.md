@@ -11,7 +11,7 @@
 
 ## 3 初始化
 ### 3.1 下载安装SDK
-go get  github.com/ks3sdklib/aws-sdk-go
+go get  github.com/dongfangx/aws-sdk-go
 ### 3.2 获取秘钥
 1、开通KS3服务，[http://www.ksyun.com/user/register](http://www.ksyun.com/user/register) 注册账号  
 2、进入控制台, [http://ks3.ksyun.com/console.html#/setting](http://ks3.ksyun.com/console.html#/setting) 获取AccessKeyID 、AccessKeySecret
@@ -19,9 +19,9 @@ go get  github.com/ks3sdklib/aws-sdk-go
 1、引用相关包
 
 	import(
-		"github.com/ks3sdklib/aws-sdk-go/aws"
-		"github.com/ks3sdklib/aws-sdk-go/aws/credentials"
-		"github.com/ks3sdklib/aws-sdk-go/service/s3"
+		"github.com/dongfangx/aws-sdk-go/aws"
+		"github.com/dongfangx/aws-sdk-go/aws/credentials"
+		"github.com/dongfangx/aws-sdk-go/service/s3"
 	)
 
 2、初始化客户端
@@ -38,7 +38,7 @@ go get  github.com/ks3sdklib/aws-sdk-go
 		Logger:os.Stdout,//打日志的位置
 		})
 ## 4 使用示例
-输入参数params和返回结果resp详细结构请参考github.com/ks3sdklib/aws-sdk-go/service/s3/api.go  
+输入参数params和返回结果resp详细结构请参考github.com/dongfangx/aws-sdk-go/service/s3/api.go  
 ### 4.1 上传文件
 
 	params := &s3.PutObjectInput{

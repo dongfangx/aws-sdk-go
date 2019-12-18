@@ -2,8 +2,8 @@
 package directoryservice
 
 import (
-	"github.com/ks3sdklib/aws-sdk-go/internal/features/shared"
-	"github.com/ks3sdklib/aws-sdk-go/service/directoryservice"
+	"github.com/dongfangx/aws-sdk-go/internal/features/shared"
+	"github.com/dongfangx/aws-sdk-go/service/directoryservice"
 	. "github.com/lsegal/gucumber"
 )
 

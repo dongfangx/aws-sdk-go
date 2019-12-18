@@ -2,8 +2,8 @@
 package unit
 
 import (
-	"github.com/ks3sdklib/aws-sdk-go/aws"
-	"github.com/ks3sdklib/aws-sdk-go/aws/credentials"
+	"github.com/dongfangx/aws-sdk-go/aws"
+	"github.com/dongfangx/aws-sdk-go/aws/credentials"
 )
 
 // Imported is a marker to ensure that this package's init() function gets

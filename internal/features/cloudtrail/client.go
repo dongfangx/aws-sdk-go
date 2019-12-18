@@ -2,8 +2,8 @@
 package cloudtrail
 
 import (
-	"github.com/ks3sdklib/aws-sdk-go/internal/features/shared"
-	"github.com/ks3sdklib/aws-sdk-go/service/cloudtrail"
+	"github.com/dongfangx/aws-sdk-go/internal/features/shared"
+	"github.com/dongfangx/aws-sdk-go/service/cloudtrail"
 	. "github.com/lsegal/gucumber"
 )
 

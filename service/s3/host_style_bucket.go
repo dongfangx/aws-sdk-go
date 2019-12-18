@@ -4,8 +4,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/ks3sdklib/aws-sdk-go/aws"
-	"github.com/ks3sdklib/aws-sdk-go/aws/awsutil"
+	"github.com/dongfangx/aws-sdk-go/aws"
+	"github.com/dongfangx/aws-sdk-go/aws/awsutil"
 )
 
 var reDomain = regexp.MustCompile(`^[a-z0-9][a-z0-9\.\-]{1,61}[a-z0-9]$`)

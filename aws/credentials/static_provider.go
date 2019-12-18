@@ -1,7 +1,7 @@
 package credentials
 
 import (
-	"github.com/ks3sdklib/aws-sdk-go/internal/apierr"
+	"github.com/dongfangx/aws-sdk-go/internal/apierr"
 )
 
 var (

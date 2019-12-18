@@ -4,7 +4,7 @@
 package s3
 
 import (
-	"github.com/ks3sdklib/aws-sdk-go/aws"
+	"github.com/dongfangx/aws-sdk-go/aws"
 	"io"
 	"net/url"
 	"sync"

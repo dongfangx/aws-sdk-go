@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/ks3sdklib/aws-sdk-go/aws"
-	"github.com/ks3sdklib/aws-sdk-go/aws/awsutil"
-	"github.com/ks3sdklib/aws-sdk-go/internal/test/unit"
-	"github.com/ks3sdklib/aws-sdk-go/service/s3"
+	"github.com/dongfangx/aws-sdk-go/aws"
+	"github.com/dongfangx/aws-sdk-go/aws/awsutil"
+	"github.com/dongfangx/aws-sdk-go/internal/test/unit"
+	"github.com/dongfangx/aws-sdk-go/service/s3"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -56,7 +56,7 @@ func TestPopulateLocationConstraint(t *testing.T) {
 func TestNoPopulateLocationConstraintIfProvided(t *testing.T) {
 	s := s3.New(nil)
 	req, _ := s.CreateBucketRequest(&s3.CreateBucketInput{
-		Bucket: aws.String("bucket"),
+		Bucket:                    aws.String("bucket"),
 		CreateBucketConfiguration: &s3.CreateBucketConfiguration{},
 	})
 	err := req.Build()

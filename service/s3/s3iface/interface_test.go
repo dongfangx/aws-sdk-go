@@ -5,8 +5,8 @@ package s3iface_test
 import (
 	"testing"
 
-	"github.com/ks3sdklib/aws-sdk-go/service/s3"
-	"github.com/ks3sdklib/aws-sdk-go/service/s3/s3iface"
+	"github.com/dongfangx/aws-sdk-go/service/s3"
+	"github.com/dongfangx/aws-sdk-go/service/s3/s3iface"
 	"github.com/stretchr/testify/assert"
 )
 

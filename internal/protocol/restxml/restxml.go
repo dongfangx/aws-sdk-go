@@ -8,11 +8,11 @@ package restxml
 import (
 	"bytes"
 	"encoding/xml"
-	"github.com/ks3sdklib/aws-sdk-go/aws"
-	"github.com/ks3sdklib/aws-sdk-go/internal/apierr"
-	"github.com/ks3sdklib/aws-sdk-go/internal/protocol/query"
-	"github.com/ks3sdklib/aws-sdk-go/internal/protocol/rest"
-	"github.com/ks3sdklib/aws-sdk-go/internal/protocol/xml/xmlutil"
+	"github.com/dongfangx/aws-sdk-go/aws"
+	"github.com/dongfangx/aws-sdk-go/internal/apierr"
+	"github.com/dongfangx/aws-sdk-go/internal/protocol/query"
+	"github.com/dongfangx/aws-sdk-go/internal/protocol/rest"
+	"github.com/dongfangx/aws-sdk-go/internal/protocol/xml/xmlutil"
 )
 
 // Build builds a request payload for the REST XML protocol.
